@@ -26,8 +26,8 @@ nav{
     font-size: x-large;
     font-weight: 600;
 }
-body{
-    /* min-height: 90em; */
+body {
+    min-height: 90em; 
 }
 .container {
     max-width: 1000px;
@@ -46,12 +46,7 @@ body{
     position: absolute;
     width: 100%;
   }
-.body-div{
 
-}
-#video{
-    
-}
 form{
     margin: 20px 0px;
     padding: 20px 10px;
@@ -85,20 +80,3 @@ form{
     background-color: rgb(127, 177, 225);
 }
 
-@media only screen and (max-width: 480px) {
-    nav{
-        display: flex;
-        flex-direction: column;
-        min-width: 100%;
-    }
-    .img-div{
-        width: 100%;
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-    }
-    #hero {
-      top: 200px;
-    }
-  }
